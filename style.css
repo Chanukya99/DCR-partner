@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    padding: 20px 40px;
+    font-family: calibri;
+}
+
+.navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.navlinks{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.navlinks li{
+    list-style-type: none;
+}
+
+.navbar-inner a{
+    text-decoration: none;
+    color: black;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.get-in-Touch li{
+    list-style-type: none;
+
+}
+
+.get-btn{
+    border: red 2px solid;
+    padding: 10px;
+    color: red !important;
+}
+
+.gin-btn:hover{
+    background-color: red;
+    color: black !important;
+    transform: translateY(3px);
+}
+
+/* header section design */
+
+.header{
+    display: flex;
+    line-height: 30px;
+    justify-content: space-between;
+    font-family:calibri;
+
+    
+}
+
+.header-inner2 img{
+    width: 500px;
+}
+.btn{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    width: 110px;
+    text-align: center;
+    transition: all .2s 0s linear;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 10px rgb(28, 0, 128);
+    transform: translateY(-3PX);
+}
+/* chatbot design */
+.chatbot{
+    background-color: rgb(231, 109, 115);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+/* card design */
+.cards-inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    width: 25%;
+    background-color: rgb(134, 204, 54);
+    line-height: 30px;
+    padding: 60px 30px;
+    color: white;
+    font-family: calibri;
+}
+.card a{
+    text-decoration: none;
+    color: beige;
+    font-size: x-large;
+}
+.card p{
+    text-align: justify;
+    margin-top:10px ;
+}
+.card:hover{
+    background-color: rgb(146, 16, 16);
+    border-radius: 5px;
+}
+
+/* contact sectionndesign of home */
+.contact{
+    display: flex;
+    justify-content:space-between ;
+    padding: 80px 0px;
+}
+
+.mail, .phone{
+    font-size: 20px;
+    width:90px;
+}
+
+.mail i , .phone i{
+    font-size: 40px;
+}
+
+/*.mail p,lable , .phone p,lable{
+    text-align: right;
+    display: block;
+}*/
+
+/* Footer design */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color:rgb(17, 14, 14);
+    align-items: center;
+    color: white;
+    line-height: 30px;
+
+}
+.footer li{
+    list-style-type: none;
+}
